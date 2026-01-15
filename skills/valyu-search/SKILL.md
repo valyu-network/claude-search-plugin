@@ -5,6 +5,20 @@ description: Complete Valyu API toolkit with Search, Answer, Contents extraction
 
 # Valyu Complete API Tool
 
+## Reference Documentation
+
+For detailed guidance, consult these references:
+
+| Document | Purpose |
+|----------|---------|
+| [references/api-guide.md](references/api-guide.md) | Complete API documentation for all endpoints |
+| [references/prompting.md](references/prompting.md) | Best practices for writing effective search queries |
+| [references/recipes.md](references/recipes.md) | Recipe index and common workflows |
+| [references/search-recipes/](references/search-recipes/) | 14 search patterns (academic, finance, healthcare, news, monitoring) |
+| [references/content-recipes/](references/content-recipes/) | 6 content extraction patterns (summarization, structured data) |
+| [references/answer-recipes/](references/answer-recipes/) | 4 answer patterns (fast mode, streaming, structured output) |
+| [references/deepresearch-recipes/](references/deepresearch-recipes/) | 3 research patterns (fast, lite, heavy modes) |
+
 Comprehensive CLI tool for all Valyu APIs: Search, Answer, Contents, and DeepResearch.
 
 ## CRITICAL: Script Path Resolution
