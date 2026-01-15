@@ -12,6 +12,7 @@ For detailed guidance, consult these references:
 | Document | Purpose |
 |----------|---------|
 | [references/design-philosophy.md](references/design-philosophy.md) | Core principles and when to use Valyu |
+| [references/datasources.md](references/datasources.md) | Available datasets and data coverage (40+ sources) |
 | [references/api-guide.md](references/api-guide.md) | Complete API documentation for all endpoints |
 | [references/prompting.md](references/prompting.md) | Best practices for writing effective search queries |
 | [references/recipes.md](references/recipes.md) | Recipe index and common workflows |
@@ -19,6 +20,27 @@ For detailed guidance, consult these references:
 | [references/content-recipes/](references/content-recipes/) | 6 content extraction patterns (summarization, structured data) |
 | [references/answer-recipes/](references/answer-recipes/) | 4 answer patterns (fast mode, streaming, structured output) |
 | [references/deepresearch-recipes/](references/deepresearch-recipes/) | 3 research patterns (fast, lite, heavy modes) |
+| [references/integrations/](references/integrations/) | SDK & platform integration guides (13 integrations) |
+
+## Integrations
+
+When users ask how to integrate Valyu with other platforms or SDKs, consult the integration guides:
+
+| Integration | File | Use Case |
+|-------------|------|----------|
+| **MCP Remote** | [integrations/mcp-server.md](references/integrations/mcp-server.md) | Claude Desktop, Claude Code CLI, OpenAI agents via MCP |
+| **MCP Local** | [integrations/mcp-desktop.md](references/integrations/mcp-desktop.md) | Local MCP server with Python virtual environment |
+| **Claude Code Plugin** | [integrations/claude-code-plugin.md](references/integrations/claude-code-plugin.md) | Direct plugin for Claude Code CLI |
+| **LM Studio** | [integrations/lmstudio.md](references/integrations/lmstudio.md) | Enhance local LLMs with Valyu search |
+| **AWS Bedrock** | [integrations/aws-agentcore.md](references/integrations/aws-agentcore.md) | Enterprise deployment with Strands Agents |
+| **n8n** | [integrations/n8n.md](references/integrations/n8n.md) | Workflow automation integration |
+| **Vercel AI SDK** | [integrations/vercel-ai-sdk.md](references/integrations/vercel-ai-sdk.md) | TypeScript tools for AI SDK v5 |
+| **LangChain** | [integrations/langchain.md](references/integrations/langchain.md) | Python agents with ValyuSearchTool |
+| **LlamaIndex** | [integrations/llamaindex.md](references/integrations/llamaindex.md) | ValyuToolSpec for RAG applications |
+| **Claude Agent SDK** | [integrations/claude-agent-sdk.md](references/integrations/claude-agent-sdk.md) | Community SDK with MCP tools |
+| **Anthropic** | [integrations/anthropic.md](references/integrations/anthropic.md) | AnthropicProvider for Claude API |
+| **OpenAI** | [integrations/openai.md](references/integrations/openai.md) | OpenAIProvider for Responses API |
+| **Google Gemini** | [integrations/google.md](references/integrations/google.md) | Gemini function calling integration |
 
 Comprehensive CLI tool for all Valyu APIs: Search, Answer, Contents, and DeepResearch.
 
