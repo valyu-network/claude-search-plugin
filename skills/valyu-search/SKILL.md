@@ -11,6 +11,7 @@ For detailed guidance, consult these references:
 
 | Document | Purpose |
 |----------|---------|
+| [references/design-philosophy.md](references/design-philosophy.md) | Core principles and when to use Valyu |
 | [references/api-guide.md](references/api-guide.md) | Complete API documentation for all endpoints |
 | [references/prompting.md](references/prompting.md) | Best practices for writing effective search queries |
 | [references/recipes.md](references/recipes.md) | Recipe index and common workflows |
